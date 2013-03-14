@@ -24,7 +24,6 @@ Ext.define('Contact.view.Form', {
     config: {
         itemId: 'formCancelBtn',
         padding: '10px',
-        scrollable: true,
         items: [
             {
                 xtype: 'toolbar',
