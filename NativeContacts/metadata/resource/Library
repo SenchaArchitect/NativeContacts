@@ -6,6 +6,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userClassName": "Library",
         "basePath": null,
         "debug": true
     },

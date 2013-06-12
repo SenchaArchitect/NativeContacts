@@ -22,7 +22,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "MyIndexBar",
                 "letters": null
             },
             "designerId": "62e06e22-c1ef-4c62-a31f-308b64178caa"
@@ -35,7 +34,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "itemTpl",
                 "implHandler": [
                     "<div>{firstName} {lastName}</div>"
                 ],

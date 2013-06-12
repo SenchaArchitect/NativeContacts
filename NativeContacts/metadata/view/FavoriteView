@@ -24,7 +24,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "itemTpl",
                 "implHandler": [
                     "<img src=\"{picture:empty(\"resources/img/defaultContactPic.png\")}\" width=\"160\" /><div>{firstName} {lastName}</div>"
                 ],

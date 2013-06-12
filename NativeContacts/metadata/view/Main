@@ -21,8 +21,7 @@
             "userConfig": {
                 "container|pack": "center",
                 "border": "",
-                "docked": "top",
-                "designer|userClassName": "MyTabBar"
+                "docked": "top"
             },
             "designerId": "8952dde9-dac2-4b88-9838-9ef8f3fe34b8"
         },
@@ -60,8 +59,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "docked": "bottom",
-                "designer|userClassName": "MyToolbar2"
+                "docked": "bottom"
             },
             "designerId": "469e1f53-0b7f-427f-b138-42e45c6f7d8b",
             "cn": [
@@ -78,9 +76,7 @@
                         ],
                         "itemId": "addContactBtn",
                         "ui": "action",
-                        "designer|userClassName": "MyButton6",
                         "iconCls": "add",
-                        "iconMask": true,
                         "text": "Add Contact"
                     },
                     "designerId": "098ee7e2-ee63-4dc9-8c17-ac69f32981a2"
