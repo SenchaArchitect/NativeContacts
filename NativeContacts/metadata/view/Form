@@ -10,10 +10,7 @@
         "itemId": "formCancelBtn",
         "padding": "10px",
         "designer|userClassName": "Form",
-        "designer|userAlias": "contactform",
-        "scrollable": [
-            "true"
-        ]
+        "designer|userAlias": "contactform"
     },
     "designerId": "7187cc37-7c2e-4f8a-a763-ba7d3f34a79c",
     "cn": [
@@ -25,8 +22,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "docked": "top",
-                "designer|userClassName": "MyToolbar"
+                "docked": "top"
             },
             "designerId": "32288607-5579-4c95-b4ee-e5d4fc422625",
             "cn": [
@@ -41,9 +37,7 @@
                         "id": "starContact",
                         "itemId": "cancelBtn",
                         "ui": "decline",
-                        "designer|userClassName": "MyButton",
                         "iconCls": null,
-                        "iconMask": true,
                         "text": "Cancel"
                     },
                     "designerId": "2c109d9b-cbc1-43c2-ad39-e4949b1298f5"
@@ -55,9 +49,6 @@
                         "type": "array"
                     },
                     "codeClass": null,
-                    "userConfig": {
-                        "designer|userClassName": "MySpacer"
-                    },
                     "designerId": "e4ca9257-17fc-45c5-a763-d62e311a539b"
                 },
                 {
@@ -71,9 +62,7 @@
                         "id": null,
                         "itemId": "saveContactBtn",
                         "ui": "action",
-                        "designer|userClassName": "MyButton",
                         "iconCls": "",
-                        "iconMask": true,
                         "text": "Save"
                     },
                     "designerId": "15213c48-d0d1-4993-8d50-96fa8953191b"
@@ -100,7 +89,6 @@
             "userConfig": {
                 "itemId": "firstName",
                 "margin": "10px 0 0 0",
-                "designer|userClassName": "MyTextField",
                 "label": "First Name",
                 "labelAlign": "top",
                 "name": "firstName",
@@ -118,7 +106,6 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "lastName",
-                "designer|userClassName": "MyTextField1",
                 "label": "Last Name",
                 "labelAlign": "top",
                 "name": "lastName",
@@ -135,7 +122,6 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "phoneNumber",
-                "designer|userClassName": "MyTextField1",
                 "label": "Phone Number",
                 "labelAlign": "top",
                 "name": "phoneNumber",
@@ -153,7 +139,6 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "emailAddress",
-                "designer|userClassName": "MyEmailField",
                 "label": "Email Address",
                 "labelAlign": "top",
                 "name": "emailAddress",
@@ -171,7 +156,6 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "address",
-                "designer|userClassName": "MyTextField1",
                 "label": "Address",
                 "labelAlign": "top",
                 "name": "address",
@@ -188,7 +172,6 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "city",
-                "designer|userClassName": "MyTextField1",
                 "label": "City",
                 "labelAlign": "top",
                 "name": "city",
@@ -206,7 +189,6 @@
             "userConfig": {
                 "id": "state",
                 "itemId": "address",
-                "designer|userClassName": "MyTextField1",
                 "label": "State",
                 "labelAlign": "top",
                 "name": "city",
@@ -224,7 +206,6 @@
             "userConfig": {
                 "id": "zipcode",
                 "itemId": "address",
-                "designer|userClassName": "MyNumberField",
                 "label": "Zipcode",
                 "labelAlign": "top",
                 "name": "zipcode",
@@ -240,7 +221,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "getValidationErrors",
                 "fn": "getValidationErrors",
                 "implHandler": [
                     "var errors = [];",
@@ -266,7 +246,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "setRecord",
                 "fn": "setRecord",
                 "designer|params": [
                     "record"
