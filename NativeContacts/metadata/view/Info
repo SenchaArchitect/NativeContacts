@@ -21,8 +21,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "docked": "top",
-                "designer|userClassName": "MyToolbar"
+                "docked": "top"
             },
             "designerId": "b4f1c33c-db01-4a13-9131-db478a8a0b21",
             "cn": [
@@ -36,7 +35,6 @@
                     "userConfig": {
                         "itemId": "infoBackBtn",
                         "ui": "back",
-                        "designer|userClassName": "MyButton5",
                         "text": "Back"
                     },
                     "designerId": "59364094-80aa-40dc-81a9-6b24a0cf0d09"
@@ -56,8 +54,7 @@
                         "height": null,
                         "html": "First Name Last Name",
                         "id": null,
-                        "itemId": "nameTxt",
-                        "designer|userClassName": "MyComponent"
+                        "itemId": "nameTxt"
                     },
                     "designerId": "a8e6751f-5a9a-4f5c-946c-43e2a9282518"
                 },
@@ -72,9 +69,7 @@
                         "id": null,
                         "itemId": "favoriteBtn",
                         "ui": null,
-                        "designer|userClassName": "MyButton",
                         "iconCls": "favorites",
-                        "iconMask": true,
                         "text": ""
                     },
                     "designerId": "5c21c37f-b22a-468b-97e3-8403e28febc2",
@@ -87,7 +82,6 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "designer|userClassName": "onFavoriteBtnTap",
                                 "fn": "onFavoriteBtnTap",
                                 "implHandler": [
                                     "var pressingCls = 'x-button-pressed';",
@@ -112,9 +106,7 @@
                     "userConfig": {
                         "id": "",
                         "itemId": "editContactBtn",
-                        "designer|userClassName": "MyButton",
                         "iconCls": "compose",
-                        "iconMask": true,
                         "text": ""
                     },
                     "designerId": "672443c1-dc30-4aee-be97-c8468fcab5b1"
@@ -141,7 +133,6 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "phoneNumber",
-                "designer|userClassName": "MyTextField1",
                 "clearIcon": false,
                 "label": "Phone Number",
                 "labelAlign": "top",
@@ -160,7 +151,6 @@
             "userConfig": {
                 "disabled": true,
                 "itemId": "emailAddress",
-                "designer|userClassName": "MyTextField1",
                 "clearIcon": false,
                 "label": "Email Address",
                 "labelAlign": "top",
@@ -181,7 +171,6 @@
                 "disabled": true,
                 "id": "address",
                 "itemId": null,
-                "designer|userClassName": "MyTextField1",
                 "clearIcon": false,
                 "label": "Address",
                 "labelAlign": "top",
@@ -199,7 +188,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "setRecord",
                 "fn": "setRecord",
                 "designer|params": [
                     "record"

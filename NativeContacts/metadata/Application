@@ -38,7 +38,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "launch",
                 "fn": "launch",
                 "implHandler": [
                     "Ext.util.Format.empty = function(value, defaultValue) {",
@@ -92,9 +91,8 @@
             "codeClass": null,
             "userConfig": {
                 "paths": [
-                    "{\"Ext.device\":\"device/\"}"
-                ],
-                "designer|userClassName": "Loader"
+                    "{\"Ext.device\":\"../device/\"}"
+                ]
             },
             "designerId": "cf9aa7ff-9188-40b1-a092-5c591cea8297"
         }

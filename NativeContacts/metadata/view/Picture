@@ -39,8 +39,7 @@
             "codeClass": null,
             "userConfig": {
                 "html": "",
-                "style": null,
-                "designer|userClassName": "MyComponent2"
+                "style": null
             },
             "designerId": "4b25a1d2-93b2-49cd-b330-0e99c3ee3b1c"
         },
@@ -58,9 +57,7 @@
                 "itemId": "mybutton",
                 "right": 5,
                 "width": null,
-                "designer|userClassName": "MyButton1",
                 "iconCls": "add",
-                "iconMask": true,
                 "text": null
             },
             "designerId": "bf48f9d3-059b-47a7-a7a4-c91587bddde1",
@@ -73,7 +70,6 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "designer|userClassName": "onMybuttonTap",
                         "fn": "onMybuttonTap",
                         "implHandler": [
                             "Ext.device.Camera.capture({",
@@ -103,7 +99,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "tpl",
                 "implHandler": [
                     "<img src=\"{picture}\" width=\"160\" />"
                 ],

@@ -21,7 +21,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "contactinfo",
                 "autoCreate": true,
                 "ref": "contactinfo",
                 "selector": "contactinfo",
@@ -37,7 +36,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "contactform",
                 "autoCreate": true,
                 "ref": "contactform",
                 "selector": "contactform",
@@ -53,7 +51,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "contactlist",
                 "autoCreate": true,
                 "ref": "contactlist",
                 "selector": "contactlist",
@@ -69,7 +66,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onAddContactBtnTap",
                 "fn": "onAddContactBtnTap",
                 "implHandler": [
                     "var referrer = Ext.Viewport.getActiveItem();",
@@ -93,7 +89,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onSaveContactBtnTap",
                 "fn": "onSaveContactBtnTap",
                 "implHandler": [
                     "var form = this.getContactform();",
@@ -132,7 +127,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onEditContactBtnTap",
                 "fn": "onEditContactBtnTap",
                 "implHandler": [
                     "var referrer = Ext.Viewport.getActiveItem();",
@@ -156,7 +150,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onCancelBtnTap",
                 "fn": "onCancelBtnTap",
                 "implHandler": [
                     "var form = this.getContactform();",
@@ -178,7 +171,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onContactItemTap",
                 "fn": "onContactItemTap",
                 "implHandler": [
                     "var info = this.getContactinfo();",
@@ -200,7 +192,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onInfoBackBtnTap",
                 "fn": "onInfoBackBtnTap",
                 "implHandler": [
                     "Ext.Viewport.setActiveItem(0);"
@@ -219,7 +210,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onFavoriteViewActivate",
                 "fn": "onFavoriteViewActivate",
                 "implHandler": [
                     "var ds = Ext.StoreManager.lookup('ContactStore');",
@@ -239,7 +229,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onListActivate",
                 "fn": "onListActivate",
                 "implHandler": [
                     "var ds = Ext.StoreManager.lookup('ContactStore');",
@@ -259,7 +248,6 @@
             },
             "codeClass": null,
             "userConfig": {
-                "designer|userClassName": "onContactPickerChange",
                 "fn": "onContactPickerChange",
                 "implHandler": [
                     "var currentForm = Ext.Viewport.getActiveItem();",
