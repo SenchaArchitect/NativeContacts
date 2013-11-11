@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "List",
         "designer|userAlias": "contactlist",
+        "designer|userClassName": "List",
         "disableSelection": true,
         "emptyText": "No Contacts",
         "store": "ContactStore"
@@ -21,9 +21,6 @@
                 "type": "object"
             },
             "codeClass": null,
-            "userConfig": {
-                "letters": null
-            },
             "designerId": "62e06e22-c1ef-4c62-a31f-308b64178caa"
         },
         {
@@ -34,10 +31,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|displayName": "itemTpl",
                 "implHandler": [
                     "<div>{firstName} {lastName}</div>"
-                ],
-                "designer|displayName": "itemTpl"
+                ]
             },
             "designerId": "218dddcb-9a35-4f10-8ae0-78a321386a81"
         }

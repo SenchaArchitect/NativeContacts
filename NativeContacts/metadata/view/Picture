@@ -6,20 +6,20 @@
     },
     "codeClass": null,
     "userConfig": {
-        "overflow": "hidden",
         "container|align": "center",
+        "designer|userAlias": "contactpic",
+        "designer|userClassName": "Picture",
         "height": 120,
         "html": null,
         "id": null,
-        "minHeight": 100,
-        "style": "overflow: hidden",
-        "ui": "",
-        "designer|userClassName": "Picture",
-        "designer|userAlias": "contactpic",
         "layout": "vbox",
         "masked": null,
+        "minHeight": 100,
         "modal": null,
-        "scrollable": null
+        "overflow": "hidden",
+        "scrollable": null,
+        "style": "overflow: hidden",
+        "ui": ""
     },
     "designerId": "b037ea3a-5bcd-4f85-930a-abaa1bdc4dcd",
     "customConfigs": [
@@ -53,12 +53,12 @@
             "userConfig": {
                 "bottom": 5,
                 "docked": null,
+                "iconCls": "add",
                 "id": null,
                 "itemId": "mybutton",
                 "right": 5,
-                "width": null,
-                "iconCls": "add",
-                "text": null
+                "text": null,
+                "width": null
             },
             "designerId": "bf48f9d3-059b-47a7-a7a4-c91587bddde1",
             "cn": [
@@ -99,10 +99,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|displayName": "tpl",
                 "implHandler": [
                     "<img src=\"{picture}\" width=\"160\" />"
-                ],
-                "designer|displayName": "tpl"
+                ]
             },
             "designerId": "dd7a681d-4e49-41f8-a4e0-8859ec879b86"
         }

@@ -6,8 +6,15 @@
     },
     "codeClass": null,
     "userConfig": {
+        "controllers": [
+            "Contacts"
+        ],
         "models": [
             "Contact"
+        ],
+        "name": "Contact",
+        "requires": [
+            "Ext.device.Camera"
         ],
         "stores": [
             "ContactStore"
@@ -19,14 +26,7 @@
             "Picture",
             "List",
             "FavoriteView"
-        ],
-        "requires": [
-            "Ext.device.Camera"
-        ],
-        "controllers": [
-            "Contacts"
-        ],
-        "name": "Contact"
+        ]
     },
     "designerId": "application",
     "cn": [

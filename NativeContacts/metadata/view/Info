@@ -6,10 +6,10 @@
     },
     "codeClass": null,
     "userConfig": {
-        "id": null,
-        "padding": "10px",
+        "designer|userAlias": "contactinfo",
         "designer|userClassName": "Info",
-        "designer|userAlias": "contactinfo"
+        "id": null,
+        "padding": "10px"
     },
     "designerId": "266d5780-ee4a-4dca-a156-841cf77894ee",
     "cn": [
@@ -34,8 +34,8 @@
                     "codeClass": null,
                     "userConfig": {
                         "itemId": "infoBackBtn",
-                        "ui": "back",
-                        "text": "Back"
+                        "text": "Back",
+                        "ui": "back"
                     },
                     "designerId": "59364094-80aa-40dc-81a9-6b24a0cf0d09"
                 },
@@ -47,14 +47,14 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "layout|flex": 1,
                         "cls": [
                             "contact-name"
                         ],
                         "height": null,
                         "html": "First Name Last Name",
                         "id": null,
-                        "itemId": "nameTxt"
+                        "itemId": "nameTxt",
+                        "layout|flex": 1
                     },
                     "designerId": "a8e6751f-5a9a-4f5c-946c-43e2a9282518"
                 },
@@ -66,11 +66,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "iconCls": "favorites",
                         "id": null,
                         "itemId": "favoriteBtn",
-                        "ui": null,
-                        "iconCls": "favorites",
-                        "text": ""
+                        "text": "",
+                        "ui": null
                     },
                     "designerId": "5c21c37f-b22a-468b-97e3-8403e28febc2",
                     "cn": [
@@ -104,9 +104,9 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "iconCls": "compose",
                         "id": "",
                         "itemId": "editContactBtn",
-                        "iconCls": "compose",
                         "text": ""
                     },
                     "designerId": "672443c1-dc30-4aee-be97-c8468fcab5b1"
@@ -131,9 +131,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "clearIcon": false,
                 "disabled": true,
                 "itemId": "phoneNumber",
-                "clearIcon": false,
                 "label": "Phone Number",
                 "labelAlign": "top",
                 "name": "phoneNumber",
@@ -149,9 +149,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "clearIcon": false,
                 "disabled": true,
                 "itemId": "emailAddress",
-                "clearIcon": false,
                 "label": "Email Address",
                 "labelAlign": "top",
                 "name": "emailAddress",
@@ -168,10 +168,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "clearIcon": false,
                 "disabled": true,
                 "id": "address",
                 "itemId": null,
-                "clearIcon": false,
                 "label": "Address",
                 "labelAlign": "top",
                 "name": "address",
@@ -188,10 +188,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "fn": "setRecord",
                 "designer|params": [
                     "record"
                 ],
+                "fn": "setRecord",
                 "implHandler": [
                     "this.callParent(arguments);",
                     "if (record) {",

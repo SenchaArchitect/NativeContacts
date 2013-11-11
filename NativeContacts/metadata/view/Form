@@ -6,11 +6,11 @@
     },
     "codeClass": null,
     "userConfig": {
+        "designer|userAlias": "contactform",
+        "designer|userClassName": "Form",
         "id": null,
         "itemId": "formCancelBtn",
-        "padding": "10px",
-        "designer|userClassName": "Form",
-        "designer|userAlias": "contactform"
+        "padding": "10px"
     },
     "designerId": "7187cc37-7c2e-4f8a-a763-ba7d3f34a79c",
     "cn": [
@@ -34,11 +34,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "iconCls": null,
                         "id": "starContact",
                         "itemId": "cancelBtn",
-                        "ui": "decline",
-                        "iconCls": null,
-                        "text": "Cancel"
+                        "text": "Cancel",
+                        "ui": "decline"
                     },
                     "designerId": "2c109d9b-cbc1-43c2-ad39-e4949b1298f5"
                 },
@@ -59,11 +59,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "iconCls": "",
                         "id": null,
                         "itemId": "saveContactBtn",
-                        "ui": "action",
-                        "iconCls": "",
-                        "text": "Save"
+                        "text": "Save",
+                        "ui": "action"
                     },
                     "designerId": "15213c48-d0d1-4993-8d50-96fa8953191b"
                 }
@@ -88,12 +88,12 @@
             "codeClass": null,
             "userConfig": {
                 "itemId": "firstName",
-                "margin": "10px 0 0 0",
                 "label": "First Name",
                 "labelAlign": "top",
+                "margin": "10px 0 0 0",
                 "name": "firstName",
-                "required": true,
-                "readOnly": false
+                "readOnly": null,
+                "required": true
             },
             "designerId": "9e8fecd4-dbb2-4c28-92da-0c97bf71a356"
         },
@@ -109,7 +109,7 @@
                 "label": "Last Name",
                 "labelAlign": "top",
                 "name": "lastName",
-                "readOnly": false
+                "readOnly": null
             },
             "designerId": "dbc98826-aaf1-4c8a-9f3a-8b21d8b8b629"
         },
@@ -125,8 +125,8 @@
                 "label": "Phone Number",
                 "labelAlign": "top",
                 "name": "phoneNumber",
-                "required": true,
-                "readOnly": false
+                "readOnly": null,
+                "required": true
             },
             "designerId": "b13c1c6b-53d9-4cef-bc83-eda716409342"
         },
@@ -143,7 +143,7 @@
                 "labelAlign": "top",
                 "name": "emailAddress",
                 "placeHolder": "email@example.com",
-                "readOnly": false
+                "readOnly": null
             },
             "designerId": "1a2892c3-bd99-46ae-b464-762d633f52fb"
         },
@@ -159,7 +159,7 @@
                 "label": "Address",
                 "labelAlign": "top",
                 "name": "address",
-                "readOnly": false
+                "readOnly": null
             },
             "designerId": "fd17f2d4-3915-4475-85e5-dcf44231b4fb"
         },
@@ -175,7 +175,7 @@
                 "label": "City",
                 "labelAlign": "top",
                 "name": "city",
-                "readOnly": false
+                "readOnly": null
             },
             "designerId": "18809ca3-c0f6-48e3-ab2c-97c4698dd74b"
         },
@@ -192,7 +192,7 @@
                 "label": "State",
                 "labelAlign": "top",
                 "name": "city",
-                "readOnly": false
+                "readOnly": null
             },
             "designerId": "d21db6c3-5c5a-431b-9430-ce63b4e9d179"
         },
@@ -209,7 +209,7 @@
                 "label": "Zipcode",
                 "labelAlign": "top",
                 "name": "zipcode",
-                "readOnly": false
+                "readOnly": null
             },
             "designerId": "9b45c591-814b-4735-ac57-e371670f487c"
         },
@@ -246,10 +246,10 @@
             },
             "codeClass": null,
             "userConfig": {
-                "fn": "setRecord",
                 "designer|params": [
                     "record"
                 ],
+                "fn": "setRecord",
                 "implHandler": [
                     "this.callParent(arguments);",
                     "if (record) {",
