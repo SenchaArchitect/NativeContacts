@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "FavoriteView",
         "designer|userAlias": "favoriteview",
+        "designer|userClassName": "FavoriteView",
         "emptyText": "No Favorite Contacts",
         "inline": [
             "true"
@@ -24,10 +24,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "designer|displayName": "itemTpl",
                 "implHandler": [
                     "<img src=\"{picture:empty(\"resources/img/defaultContactPic.png\")}\" width=\"160\" /><div>{firstName} {lastName}</div>"
-                ],
-                "designer|displayName": "itemTpl"
+                ]
             },
             "designerId": "1308b91b-18a7-4f92-84d9-e7b4edce8da0"
         }
