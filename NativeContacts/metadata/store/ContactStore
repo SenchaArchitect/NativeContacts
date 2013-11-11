@@ -8,9 +8,9 @@
     "userConfig": {
         "autoLoad": true,
         "autoSync": true,
+        "designer|userClassName": "ContactStore",
         "model": "Contact",
-        "storeId": "ContactStore",
-        "designer|userClassName": "ContactStore"
+        "storeId": "ContactStore"
     },
     "designerId": "8173b689-b7f9-4661-9bb0-6cba367d3d80",
     "cn": [
@@ -40,10 +40,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "fn": "groupFn",
                         "designer|params": [
                             "record"
                         ],
+                        "fn": "groupFn",
                         "implHandler": [
                             "return record.get('firstName')[0];",
                             ""

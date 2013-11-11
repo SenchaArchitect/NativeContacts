@@ -6,8 +6,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Main",
-        "designer|initialView": true
+        "designer|initialView": true,
+        "designer|userClassName": "Main"
     },
     "designerId": "ab0ebc18-fc5b-43b1-8958-7395bd191769",
     "cn": [
@@ -19,8 +19,8 @@
             },
             "codeClass": null,
             "userConfig": {
-                "container|pack": "center",
                 "border": "",
+                "container|pack": "center",
                 "docked": "top"
             },
             "designerId": "8952dde9-dac2-4b88-9838-9ef8f3fe34b8"
@@ -74,10 +74,10 @@
                         "cls": [
                             "square"
                         ],
-                        "itemId": "addContactBtn",
-                        "ui": "action",
                         "iconCls": "add",
-                        "text": "Add Contact"
+                        "itemId": "addContactBtn",
+                        "text": "Add Contact",
+                        "ui": "action"
                     },
                     "designerId": "098ee7e2-ee63-4dc9-8c17-ac69f32981a2"
                 }
