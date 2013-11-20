@@ -26,7 +26,7 @@ Ext.define('Contact.view.FavoriteView', {
         inline: true,
         store: 'ContactStore',
         itemTpl: [
-            '<img src="{picture:empty("resources/img/defaultContactPic.png")}" width="160" /><div>{firstName} {lastName}</div>'
+            '<img src="{picture:empty("resources/images/defaultContactPic.png")}" width="160" /><div>{firstName} {lastName}</div>'
         ]
     }
 
