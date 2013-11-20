@@ -123,7 +123,7 @@
             "codeClass": null,
             "userConfig": {
                 "defaultValue": [
-                    "resources/img/defaultContactPic.png"
+                    "resources/images/defaultContactPic.png"
                 ],
                 "name": "picture"
             },

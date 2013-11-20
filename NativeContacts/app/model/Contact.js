@@ -55,7 +55,7 @@ Ext.define('Contact.model.Contact', {
                 type: 'string'
             },
             {
-                defaultValue: 'resources/img/defaultContactPic.png',
+                defaultValue: 'resources/images/defaultContactPic.png',
                 name: 'picture'
             },
             {

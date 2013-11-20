@@ -37,7 +37,7 @@
     "xdsVersion": "3.0.0",
     "xdsBuild": 0,
     "schemaVersion": 1,
-    "upgradeVersion": 300000000002,
+    "upgradeVersion": 300000000003,
     "framework": "touch23",
     "viewOrderMap": {
         "view": [
@@ -59,8 +59,7 @@
         ],
         "resource": [
             "f81dd17b-02a8-4071-9594-4730c3b71ef7",
-            "83d5f462-ac48-477a-8b82-5867e132986d",
-            "ab0185ab-ce77-45f4-baf3-ac9f5f753ffe"
+            "1184529b-2413-43e4-bcf0-cc4de43d8215"
         ],
         "app": [
             "application"
