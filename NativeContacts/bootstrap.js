@@ -604,9 +604,7 @@ Ext.ClassManager.addNameAlternateMappings({
   "Ext.util.Grouper": [],
   "Ext.util.HashMap": [],
   "Ext.util.Inflector": [],
-  "Ext.util.InputBlocker": [
-    "InputBlocker"
-  ],
+  "Ext.util.InputBlocker": [],
   "Ext.util.LineSegment": [],
   "Ext.util.MixedCollection": [],
   "Ext.util.Offset": [],

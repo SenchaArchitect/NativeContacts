@@ -34,10 +34,10 @@
             "display": "Build web app"
         }
     },
-    "xdsVersion": "3.0.0",
+    "xdsVersion": "3.0.1",
     "xdsBuild": 0,
     "schemaVersion": 1,
-    "upgradeVersion": 300000000003,
+    "upgradeVersion": 300000000005,
     "framework": "touch23",
     "viewOrderMap": {
         "view": [
@@ -59,7 +59,7 @@
         ],
         "resource": [
             "f81dd17b-02a8-4071-9594-4730c3b71ef7",
-            "1184529b-2413-43e4-bcf0-cc4de43d8215"
+            "fee0bb1b-45eb-41bd-b38e-4ae90cbb836a"
         ],
         "app": [
             "application"
