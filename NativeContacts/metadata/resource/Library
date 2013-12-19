@@ -9,7 +9,7 @@
         "basePath": null,
         "debug": true,
         "designer|userClassName": "Library",
-        "theme": "MyDefaultTheme1"
+        "theme": "MyDefaultTheme"
     },
     "designerId": "f81dd17b-02a8-4071-9594-4730c3b71ef7"
 }

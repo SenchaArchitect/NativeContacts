@@ -1,0 +1,49 @@
+{
+    "type": "defaultthemeresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyDefaultTheme",
+        "platform": [
+            "phone",
+            "tablet",
+            "desktop"
+        ]
+    },
+    "name": "MyDefaultTheme",
+    "designerId": "0836676f-7936-4c72-a9cf-7d4593cefb43",
+    "storage": {
+        "needsCompile": false,
+        "simple": {},
+        "nameIndex": 1,
+        "varData": {}
+    },
+    "cn": [
+        {
+            "type": "themescss",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "Scss Resource",
+                "implHandler": [
+                    ".square {",
+                    "        border-radius: 0px;",
+                    "}",
+                    "",
+                    ".contact-name {",
+                    "        color: white;",
+                    "        padding-left: 4px;",
+                    "}"
+                ]
+            },
+            "name": "scss",
+            "designerId": "4bef2fdf-2dd8-4e5f-8a43-550efe8bdee0"
+        }
+    ]
+}
